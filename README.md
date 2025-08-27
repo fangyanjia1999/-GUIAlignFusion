@@ -66,30 +66,20 @@ We conducted a systematic evaluation comparing our cross-modal GUI retrieval sys
 *Figure 6: Top-5 Visual Examples Demonstrating Retrieval on (a) relevance; (b) diversity.*
 
 Our method consistently outperforms all baselines across all metrics:
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/T1.png)
 
-| Model | Recall@10 | Recall@50 | MRR |
-|-------|-----------|-----------|-----|
-| CNN | 0.2798 | 0.5556 | 0.1250 |
-| GUing | 0.3227 | 0.6251 | 0.1558 |
-| Combiner | 0.6148 | 0.9059 | 0.3328 |
-| **GUIAlignFusion** | **0.6867** | **0.9271** | **0.3740** |
-
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/T2.png)
 ### Ablation Study
 We conducted a systematic ablation study on the three core modules of our MFEDFR-Combiner:
 
-| Model | Recall@10 | Recall@50 |
-|-------|-----------|-----------|
-| (w/o) Enhanced-DF-Block | 0.5463 | 0.8093 |
-| (w/o) Enhanced-Local-Cache | 0.6019 | 0.8650 |
-| (w/o) Enhanced-Multi-Scale-Fusion | 0.6153 | 0.8900 |
-| **GUIAlignFusion** | **0.6688** | **0.9271** |
-
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/T3.png)
 ### User Evaluation
 Blind assessments from six independent groups showed our method significantly outperformed all baseline models across three metrics:
 - Relevance: 3.77 (37% improvement)
 - Diversity: 4.10 (29% improvement)
 - Usefulness: 3.55 (22% improvement)
 
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/T4.png)
 Mann-Whitney U tests confirm statistically significant improvements across all metrics.
 
 ## Conclusion
