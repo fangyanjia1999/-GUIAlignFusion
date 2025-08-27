@@ -1,6 +1,4 @@
 # GUIAlignFusion: Progressive Gated Alignment-Fusion Network for GUI Retrieval
-**Authors:** [Yanfang Jia](https://github.com/fangyanjia1999), [Tianming Zhao](https://github.com/GUIDesignResearch)  
-**Affiliation:** Dalian University, School of Software Engineering
 ![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/overall.PNG)
 
 *Figure 1: Overview of our approach: including the creation of the datasets, vision-language model training, and development of the GUI search engine.*
@@ -89,13 +87,5 @@ This paper introduces GUIAlignFusion, a progressive fine-tuning strategy for GUI
 
 Evaluations on our self-constructed dataset demonstrate superior performance over strong baselines, with visualizations validating the efficacy of the tuning and fusion mechanisms.
 
-## Acknowledgments
-This work was supported by the 111 Center under Grant No. D23006, the National Foreign Expert Project of China under Grant No. D20240244, Dalian Major Projects of Basic Research under Grant No. 2023JJ11CG002, and the Interdisciplinary Research Project of Dalian University under Grant No. DLUXK-2025-QNLG-015.
-
-
-## Contact
-For questions about our work or code, please contact [Yanfang Jia](mailto:jiayanfang@dlu.edu.cn) or [Tianming Zhao](mailto:zhaotianming@dlu.edu.cn).
-
----
 
 *This project is based on research conducted at Dalian University, School of Software Engineering.*
