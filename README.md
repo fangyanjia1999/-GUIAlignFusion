@@ -1,6 +1,6 @@
 # GUIAlignFusion: Progressive Gated Alignment-Fusion Network for GUI Retrieval
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/overall.PNG)
 
-![Overview]([overall.PNG](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/overall.PNG))  
 *Figure 1: Overview of our approach: including the creation of the datasets, vision-language model training, and development of the GUI search engine.*
 
 ## Introduction
@@ -14,16 +14,16 @@ Comprehensive automated and human evaluations demonstrate that our method signif
 Our approach consists of two main stages:
 
 ### Stage 1: Feature Alignment Enhancement
-![Stage1](stage.pdf)  
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/stage1.png)
 *Figure 2: In the first stage of training, we perform task-oriented fine-tuning of CLIP encoders to reduce the mismatch between large-scale pretraining and the downstream task.*
 
 We freeze the CLIP encoders and only train the novel Attention Guided Gated Fusion (AGGF) module. After 30% of the training, we progressively unfreeze the vision encoder layers in an architecture-aware order to adapt the unified embedding space for downstream GUI retrieval.
 
 ### Stage 2: Feature Fusion Generation
-![Stage2](stage2.pdf)  
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/stage2.jpg)
 *Figure 3: In the second stage of training, we train from scratch a MFEDFR-Combiner network that learns to fuse the multimodal features extracted with CLIP encoders.*
 
-![Combiner](model.png)  
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/Model2.png)
 *Figure 4: MFEDFR-Combiner serves as the main network in the second stage for enhanced feature fusion. Starting from its baseline architecture (a), it is upgraded to version (b) by incorporating a Multiscale Fusion and Dynamic Fusion module.*
 
 ## Dataset Construction
@@ -57,10 +57,12 @@ We conducted a systematic evaluation comparing our cross-modal GUI retrieval sys
 2. Shallow fusion GUing model
 3. Fixed fusion Combiner
 
-![Results](login.jpg)  
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/login.png)
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/setting.png)
 *Figure 5: Top-5 retrieved Target images on (a) Login; (b) Settings.*
 
-![Results Visual](diversity.jpg)  
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/relevance.jpg)  
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/diversity.jpg)
 *Figure 6: Top-5 Visual Examples Demonstrating Retrieval on (a) relevance; (b) diversity.*
 
 Our method consistently outperforms all baselines across all metrics:
