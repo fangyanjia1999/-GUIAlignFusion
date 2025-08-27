@@ -90,16 +90,6 @@ Evaluations on our self-constructed dataset demonstrate superior performance ove
 ## Acknowledgments
 This work was supported by the 111 Center under Grant No. D23006, the National Foreign Expert Project of China under Grant No. D20240244, Dalian Major Projects of Basic Research under Grant No. 2023JJ11CG002, and the Interdisciplinary Research Project of Dalian University under Grant No. DLUXK-2025-QNLG-015.
 
-## Citation
-If you use our work, please cite:
-```bibtex
-@article{guialignfusion2025,
-  title={Progressive Gated Alignment-Fusion Network for GUI Retrieval},
-  author={Jia, Yanfang and Zhao, Tianming},
-  journal={Nuclear Physics B},
-  year={2025}
-}
-```
 
 ## Contact
 For questions about our work or code, please contact [Yanfang Jia](mailto:jiayanfang@dlu.edu.cn) or [Tianming Zhao](mailto:zhaotianming@dlu.edu.cn).
