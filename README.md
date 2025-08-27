@@ -1,6 +1,6 @@
 # GUIAlignFusion: Progressive Gated Alignment-Fusion Network for GUI Retrieval
 
-![Overview](overall.PNG)  
+![Overview]([overall.PNG](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/overall.PNG))  
 *Figure 1: Overview of our approach: including the creation of the datasets, vision-language model training, and development of the GUI search engine.*
 
 ## Introduction
