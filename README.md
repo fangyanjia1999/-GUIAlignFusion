@@ -83,7 +83,7 @@ Blind assessments from six independent groups showed our method significantly ou
 Mann-Whitney U tests confirm statistically significant improvements across all metrics.
 
 ## Conclusion
-This paper introduces GUIAlignFusion, a progressive fine-tuning strategy for GUI retrieval. The method begins by freezing the CLIP backbone to train only an attention-gated fusion module for rapid feature adaptation. It then progressively unfreezes vision encoder layers following an architecture-aware sequence, balancing stability with pretrained knowledge utilization. A dedicated Combiner network subsequently refines and fuses multimodal features, effectively bridging the domain gap between general pretraining and GUI-specific tasks while improving joint embedding additivity.
+This work introduces GUIAlignFusion, a progressive fine-tuning strategy for GUI retrieval. The method begins by freezing the CLIP backbone to train only an attention-gated fusion module for rapid feature adaptation. It then progressively unfreezes vision encoder layers following an architecture-aware sequence, balancing stability with pretrained knowledge utilization. A dedicated Combiner network subsequently refines and fuses multimodal features, effectively bridging the domain gap between general pretraining and GUI-specific tasks while improving joint embedding additivity.
 
 Evaluations on our self-constructed dataset demonstrate superior performance over strong baselines, with visualizations validating the efficacy of the tuning and fusion mechanisms.
 
