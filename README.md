@@ -27,7 +27,7 @@ We freeze the CLIP encoders and only train the novel Attention Guided Gated Fusi
 *Figure 4: MFEDFR-Combiner serves as the main network in the second stage for enhanced feature fusion. Starting from its baseline architecture (a), it is upgraded to version (b) by incorporating a Multiscale Fusion and Dynamic Fusion module.*
 
 ## Dataset Construction
-We automatically construct a large-scale dataset, **GUI Layout Differences Description ([GUI Layout DD](https://drive.google.com/drive/folders/1u7xzz5H-Di9QBOy0A1-FRWRlxTrI3f1Y?usp=drive_link))**, containing 62,530 triplets for composed GUI retrieval. It is constructed from RICO(**[`Rico dataset`](http://interactionmining.org/rico)**) and RICO-Topic by leveraging computer vision techniques for component matching and GPT models for generating natural language edit instructions.
+We automatically construct a large-scale dataset, GUI Layout Differences Description：**[`Download`](https://drive.google.com/drive/folders/1u7xzz5H-Di9QBOy0A1-FRWRlxTrI3f1Y?usp=drive_link)**, containing 62,530 triplets for composed GUI retrieval. It is constructed from RICO(**[`Rico dataset`](http://interactionmining.org/rico)**) and RICO-Topic by leveraging computer vision techniques for component matching and GPT models for generating natural language edit instructions.
 
 ### Rico-Topic Dataset
 We transformed the original RICO dataset into the Rico-Topic dataset by consolidating categories and applying automated prefiltering and manual annotation, ultimately curating 5,562 high-quality screenshots across 10 mutually exclusive themes.(the Rico-Topic Dataset: **[`Download`](https://drive.google.com/file/d/11TPlera7HjaF4O_8s0dd8OPgvfd0AeWh/view?usp=drive_link)**)
