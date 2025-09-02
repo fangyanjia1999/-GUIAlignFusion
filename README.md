@@ -50,6 +50,10 @@ We implement our CLIP-based cross-modal GUI retrieval system with a focus on thr
 - Mixed precision computing and gradient clipping with max norm of 1.0
 - Enhanced margin-based ranking loss with margin of 0.2
 
+### Pre-trained Model Weights
+To facilitate reproducibility and further research, we release the pre-trained weights of our GUIAlignFusion model. These weights can be used for inference on your own data or as a starting point for continued fine-tuning.(the GUIAlignFusion Model Weights: **[`Download`](https://drive.google.com/file/d/1u43DZe968v9Fs9xMvUbUnn4jQbkAM-uZ/view?usp=drive_link)**)
+
+
 ## Results
 ### Automated Evaluation
 We conducted a systematic evaluation comparing our cross-modal GUI retrieval system against three baseline methods:
