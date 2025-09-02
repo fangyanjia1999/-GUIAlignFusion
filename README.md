@@ -1,5 +1,5 @@
 # GUIAlignFusion: Progressive Gated Alignment-Fusion Network for GUI Retrieval
-![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/overall.PNG)
+![Alt text](https://github.com/fangyanjia1999/GUIAlignFusion/blob/main/Display/overall.PNG)
 
 *Figure 1: Overview of our approach: including the creation of the datasets, vision-language model training, and development of the GUI search engine.*
 
@@ -20,7 +20,7 @@ Our approach consists of two main stages:
 We freeze the CLIP encoders and only train the novel Attention Guided Gated Fusion (AGGF) module. After 30% of the training, we progressively unfreeze the vision encoder layers in an architecture-aware order to adapt the unified embedding space for downstream GUI retrieval.
 
 ### Stage 2: Feature Fusion Generation
-![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/stage2.jpg)
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/stage2.png)
 *Figure 3: In the second stage of training, we train from scratch a MFEDFR-Combiner network that learns to fuse the multimodal features extracted with CLIP encoders.*
 
 ![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/Model2.png)
@@ -61,8 +61,8 @@ We conducted a systematic evaluation comparing our cross-modal GUI retrieval sys
 2. Shallow fusion GUing model
 3. Fixed fusion Combiner
 
-![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/login.png)
-![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/setting.png)
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/login.jpg)
+![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/setting.jpg)
 *Figure 5: Top-5 retrieved Target images on (a) Login; (b) Settings.*
 
 ![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/relevance.jpg)  
