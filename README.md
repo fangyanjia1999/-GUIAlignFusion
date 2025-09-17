@@ -47,7 +47,7 @@ Next, the system parses the description text and compares the two UI versions. D
 Finally, the system calculates the significance score of changes and filters the most important ones. The score is based on component weight, relative area (proportion of screen area), movement distance, or degree of size change, ensuring that changes to important components (e.g., Button) receive higher scores. Only the top three changes are retained, and a concise English description is generated (e.g., "Button moved from (100,200) to (150,250); Added TextView at (300,400)"). The entire process uses JSON files as input and output units, includes a backup mechanism to ensure error recovery, and supports batch processing of various interface types (e.g., login pages, settings pages). This system is suitable for scenarios such as UI test automation, accessibility assistance, or design iteration analysis.This process produced structured triplets, each comprising a reference image, a difference description, and a target image.
 
 ## Implementation Details
-We implement our CLIP-based cross-modal GUI retrieval system with a focus on three aspects: multistage training, dynamic optimization, and advanced fusion. Our setup is evaluated on a newly constructed dataset of 5,559 GUI triplets derived from RICO.
+We conduct all experiments on a single Tesla V100-SXM2-32GB GPU. Our CLIP-based cross-modal GUI retrieval system with a focus on three aspects: multistage training, dynamic optimization, and advanced fusion. Our setup is evaluated on a newly constructed dataset of 5,559 GUI triplets derived from RICO.
 
 ### Model Implementation
 - AdamW optimizer with hierarchical learning rates (3e-5 for fusion modules, 3e-6 for CLIP parameters)
